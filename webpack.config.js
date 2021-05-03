@@ -8,7 +8,7 @@ module.exports = {
     extensions: [".js", ".ts", ".tsx"],
   },
   entry: {
-    app: ["./index.tsx"],
+    app: ["babel-regenerator-runtime","./index.tsx"],
   },
   devtool: "eval-source-map",
   stats: "errors-only",
